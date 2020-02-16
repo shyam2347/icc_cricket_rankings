@@ -13,7 +13,7 @@ $ python3 calculate_rankone.py
 ```
 
 ## Output as of 2/16/2020
-Number 1 ranked odi batsmen.
+Days as #1 ranked ODI batsmen
 ```
 $ python3 calculate_rankone.py
 ('M.E. Waugh', 1)
