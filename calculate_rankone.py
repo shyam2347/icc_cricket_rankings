@@ -24,7 +24,8 @@ def calculate(path):
         else:
             mydict[name] = 1
     sorted_dict = sorted(mydict.items(), key=operator.itemgetter(1))
-    print(sorted_dict)
+    for i in sorted_dict:
+        print(i)
 
 def main():
     calculate('csv')
